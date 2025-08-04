@@ -1,5 +1,5 @@
 
-## Dzap-Auto-Bot
+# Dzap-Auto-Bot
 
 This is a Node.js script for automating the bridging of ETH between Sepolia (Ethereum Testnet) and Arbitrum Sepolia, leveraging the Dzap API to get quotes and build transactions. The bot is designed to run continuously, managing multiple wallets and performing customizable transaction cycles.
 
@@ -23,8 +23,8 @@ This is a Node.js script for automating the bridging of ETH between Sepolia (Eth
 1.  **Clone the repository**
 
     ```bash
-    git clone [https://github.com/Chimalai/Dz4p.git](https://github.com/Chimalai/Dz4p.git)
-    cd Dz4p
+    git clone https://github.com/Chimalai/Dz4p-sep.git
+    cd Dz4p-sep
     ```
 
 2.  **Install dependencies**
@@ -44,10 +44,10 @@ This is a Node.js script for automating the bridging of ETH between Sepolia (Eth
         # Or for a single key
         PRIVATE_KEY=0x...
         ```
-    * Create an `apikeys.txt` file and add your Alchemy API key:
+    * Create an `apikeys.txt` file and add your Alchemy API key. You can get an API key from the official [Alchemy website](https://www.alchemy.com/).
 
         ```
-        ALCHEMY_API_KEY=**[YOUR_ALCHEMY_API_KEY_HERE]**
+        ALCHEMY_API_KEY=YOUR_ALCHEMY_API_KEY_HERE
         ```
 
 ## Configuration
